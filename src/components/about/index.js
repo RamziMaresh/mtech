@@ -81,7 +81,6 @@ function AboutOne() {
                             </Col>
                         </Row>
                     </Container>
-                );
         </div>
     );
 }

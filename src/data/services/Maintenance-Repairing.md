@@ -1,7 +1,7 @@
 ---
 id: 'service-01'
 title: 'Maintenance & Repairing'
-mediumImage: 'Maintenance-Repairing-md.jpg'
+mediumImage: 'Maintenance-Repairing-md.svg'
 largeImage: 'Maintenance-Repairing-lg.jpg'
 detailBreadcrumbSubTitle: 'Single Service'
 detailBreadcrumbDesc: 'Construction of itself, because it is pain some proper style design occur are pleasure'

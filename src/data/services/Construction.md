@@ -1,7 +1,7 @@
 ---
 id: 'service-02'
 title: 'Construction & Civil'
-mediumImage: 'Construction-md.jpg'
+mediumImage: 'Construction-md.svg'
 largeImage: 'Construction-lg.jpg'
 detailBreadcrumbSubTitle: 'Single Service'
 detailBreadcrumbDesc: ''
