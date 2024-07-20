@@ -38,7 +38,6 @@ function RichTextTwo({ richTextsTwo }) {
                             </div>
                         </div>
                     </Col>
-
                 </Row>
             ))}
         </div>

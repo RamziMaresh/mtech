@@ -1,8 +1,7 @@
 import PropTypes from 'prop-types';
 import { Col, Container, Row } from 'react-bootstrap';
-
-import classes from './team.module.scss';
 import SwiperComps, { Slide } from '../swiper';
+import classes from './team.module.scss';
 
 function TeamTwo({ teamItemsTwo, settings }) {
     settings = {
@@ -55,17 +54,6 @@ function TeamTwo({ teamItemsTwo, settings }) {
                                             />
 
                                         </div>
-
-                                        {/**
-                                        <div className={classes.content}>
-                                            <h3
-                                                className={classes.title}
-                                                dangerouslySetInnerHTML={{
-                                                    __html: teamItemTwo?.teamTitle,
-                                                }}
-                                            />
-                                        </div>
-                                         */}
                                     </div>
                                 </Slide>
                             ))}
