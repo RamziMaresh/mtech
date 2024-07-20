@@ -1,5 +1,5 @@
 ---
-id: 'service-03'
+id: 'service-02'
 title: 'Equipment Rental'
 mediumImage: 'Equipment-Rental-md.svg'
 largeImage: 'Equipment-Rental-lg.jpg'
