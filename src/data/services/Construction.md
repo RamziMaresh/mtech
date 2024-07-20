@@ -1,7 +1,7 @@
 ---
 id: 'service-02'
 title: 'Construction And Civil'
-mediumImage: 'constructi-md.svg'
+mediumImage: 'Equipment-Rental-md.svg'
 largeImage: 'Construction-lg.jpg'
 detailBreadcrumbSubTitle: 'Single Service'
 detailDescOne: 'M-TECH has successfully completed number of civil contracts on variousprojects meeting the client targets, specification, and expectation.'
