@@ -1,15 +1,13 @@
 ---
 id: 'service-02'
 title: 'Construction & Civil'
-mediumImage: 'constructi-md.svg'
-largeImage: 'Construction-lg.jpg'
+mediumImage: 'Equipment-Rental-md.svg'
+largeImage: 'Equipment-Rental-lg.jpg'
 detailBreadcrumbSubTitle: 'Single Service'
-detailDescOne: 'M-TECH has successfully completed number of civil contracts on variousprojects meeting the client targets, specification, and expectation.'
-detailDescTwo: 'M-TECH -with its experienced & competent team- has the ability to manageand run different sizes of construction & civil projects.'
-detailSubTitleC: 'EPOXY APPLICATION'
-detailDescThreeC: 'M-TECH is an approved epoxy applicator, with trainedand skilled manpower under a supervision of experts.From high density epoxy flooring to low density, M-TECHcan provide a variety of selections based on the client functions. M-TECH has the ability to provide technical recommendations through its international partner ITW Performance Polymers in Italy.'
+detailBreadcrumbDesc: 'Construction of itself, because it is pain some proper style design occur are pleasure'
+detailSubTitle: 'Provide the best Constructin services for our client with their satisfaction we have expert team, modern equipments and quality materials'
+detailDesc: 'Construction of itself, because it is pain, but because some are proper style design occur in toil and pain pleasure we have a expert team some of the main features pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure...'
 linkPath: 'construction-civil'
 imagePath: 'construction-civil'
 isFeatured: true
-
 ---
