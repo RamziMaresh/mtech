@@ -31,7 +31,7 @@ function AboutOne() {
                                     <div className={classes.pattern}>
                                         <img
                                             src={pattern}
-                                            alt="About-Main-img"
+                                            alt="About-Main-img-one"
                                         />
                                     </div>
                                     <div className={classes.img}>
@@ -61,7 +61,7 @@ function AboutOne() {
                                         <div className={classes.experience_img}>
                                             <img
                                                 src={experienceImage}
-                                                alt="about-experience-Image"
+                                                alt="about-experience-img-three"
                                             />
                                         </div>
                                     </div>

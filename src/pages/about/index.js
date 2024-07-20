@@ -31,7 +31,7 @@ function AboutPage({
                 subTitle="What we do"
                 title="About us"
             />
-            <AboutOne/>
+            <AboutOne />
             <BannerThree bannerThreeItems={bannerThreeItems} />
             <Team teamItems={teamItems} teamSectionItems={teamSectionItems} />
 
@@ -69,6 +69,8 @@ AboutPage.propTypes = {
     teamSectionItems: PropTypes.instanceOf(Object).isRequired,
     footerItems: PropTypes.instanceOf(Object).isRequired,
     teamItemsTwo: PropTypes.instanceOf(Object).isRequired,
+    brandItems: PropTypes.instanceOf(Object).isRequired,
+
 
 };
 

@@ -4,8 +4,6 @@ import { Container, Row } from 'react-bootstrap';
 import serviceData from "./project_two_DATA.json";
 import classes from './projecthistory.module.scss'
 
-//
-
 
 
 function ProjectsHistoryTwo() {
@@ -46,7 +44,7 @@ function ProjectsHistoryTwo() {
         <>
             <div className={classes.area}>
                 <Container>
-                    <Row className="">
+                    <Row>
 
                         <div className={classes.content}>
                             <h3 className={classes.subtitletwo}>MECH & REPAIRING</h3>

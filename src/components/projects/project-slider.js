@@ -1,7 +1,5 @@
 import PropTypes from 'prop-types';
 
-
-{/** Home Page Section two our services images   */}
 function ProjectSlider({ project }) {
     const imagePath = `/images/projects/${project?.slug}/${project?.image}`;
 
