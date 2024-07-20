@@ -64,7 +64,6 @@ function TeamTwo({ teamItemsTwo, settings }) {
         </div>
     );
 }
-
 TeamTwo.propTypes = {
     teamItemsTwo: PropTypes.instanceOf(Object).isRequired,
     settings: PropTypes.shape({
