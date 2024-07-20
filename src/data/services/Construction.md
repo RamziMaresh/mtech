@@ -1,10 +1,9 @@
 ---
 id: 'service-02'
-title: 'Construction & Civil'
-mediumImage: 'Construction-md.svg'
+title: 'Construction And Civil'
+mediumImage: 'construction-md.svg'
 largeImage: 'Construction-lg.jpg'
 detailBreadcrumbSubTitle: 'Single Service'
-detailBreadcrumbDesc: ''
 detailDescOne: 'M-TECH has successfully completed number of civil contracts on variousprojects meeting the client targets, specification, and expectation.'
 detailDescTwo: 'M-TECH -with its experienced & competent team- has the ability to manageand run different sizes of construction & civil projects.'
 detailSubTitleC: 'EPOXY APPLICATION'
