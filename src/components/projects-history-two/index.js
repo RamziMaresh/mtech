@@ -1,12 +1,43 @@
 import React from 'react';
+import { useTable } from "react-table";
 import { Container, Row } from 'react-bootstrap';
+import serviceData from "./project_two_DATA.json";
 import classes from './index.module.scss'
 
 
 
 function ProjectsHistoryTwo() {
 
+    const data = React.useMemo(() => serviceData, []);
 
+    const columns = React.useMemo(
+        () => [
+            {
+                Header: "N",
+                accessor: "id",
+            },
+            {
+                Header: "Project",
+                accessor: "project",
+            },
+            {
+                Header: "Client",
+                accessor: "client",
+            },
+            {
+                Header: "Po No.",
+                accessor: "pono",
+            },
+            {
+                Header: "Year",
+                accessor: "year",
+            },
+        ],
+        []
+    );
+
+    const { getTableProps, getTableBodyProps, headerGroups, rows, prepareRow } =
+        useTable({ columns, data });
 
 
     return (
@@ -18,7 +49,31 @@ function ProjectsHistoryTwo() {
                             <h3 className={classes.subtitletwo}>MECH & REPAIRING</h3>
                         </div>
 
-
+                        <table {...getTableProps()} className={classes.table} key={data.id}>
+                            <thead>
+                                {headerGroups.map((headerGroup) => (
+                                    <tr className={classes.tr}{...headerGroup.getHeaderGroupProps()} key={data.id}>
+                                        {headerGroup.headers.map((column) => (
+                                            <th className={classes.th} {...column.getHeaderProps()} key={data.id}>
+                                                {column.render("Header")}
+                                            </th>
+                                        ))}
+                                    </tr>
+                                ))}
+                            </thead>
+                            <tbody {...getTableBodyProps()}>
+                                {rows.map((row) => {
+                                    prepareRow(row);
+                                    return (
+                                        <tr className={classes.tr} {...row.getRowProps()} key={data.id}> 
+                                            {row.cells.map((cell) => (
+                                                <td className={classes.td} {...cell.getCellProps()} key={data.id}> {cell.render("Cell")} </td>
+                                            ))}
+                                        </tr>
+                                    );
+                                })}
+                            </tbody>
+                        </table>
                     </Row>
                 </Container>
             </div>
