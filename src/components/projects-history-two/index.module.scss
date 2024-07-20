@@ -1,0 +1,96 @@
+@import '../../styles//abstract//custom-variables';
+@import '../../styles/abstract/custom-mixins';
+
+.area {
+    @include breakpoint(min-xl-device) {
+        padding-top: 10px;
+        padding-bottom: 20px;
+
+
+    }
+    @include breakpoint(lg-device) {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    @include breakpoint(max-md-device) {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+.content {
+    padding-top: 40px;
+}
+.title {
+    margin-bottom: 40px;
+    font-size: 60px;
+    line-height: 1.2;
+    @include breakpoint(max-sm-device) {
+        font-size: 40px;
+    }
+}
+.subtitle {
+    margin-bottom: 10px;
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: $primary;
+    @include breakpoint(max-sm-device) {
+        font-size: 25px;
+    }
+}
+.subtitletwo {
+    margin-bottom: 20px;
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 800;
+    color: $primary;
+    @include breakpoint(max-sm-device) {
+        font-size: 25px;
+    }
+}
+.desc {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.descTwo{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: black;
+    text-align: justify;
+}
+
+.table {
+    border-spacing: 0;
+    border: 1px solid #ededed;
+}
+
+  .table tr:last-child td {
+    border-bottom: 0;
+  }
+  .table .th,
+  .table .td {
+    margin: 0;
+    padding: 0.5rem;
+    border-bottom: 1px solid #ededed;
+    border-right: 1px solid #ededed;
+    position: relative;
+    color: #29173E;
+  }
+  .table th:last-child,
+  .table td:last-child {
+    border-right: 0;
+  }
+  
+  .table th::before {
+    position: absolute;
+    right: 15px;
+    top: 16px;
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+  }
