@@ -1,8 +1,8 @@
 ---
 id: 'service-01'
-title: 'Construction & Civil'
-mediumImage: 'Equipment-Rental-md.svg'
+title: 'Civil'
 largeImage: 'Equipment-Rental-lg.jpg'
+mediumImage: 'construction-lg.jpg'
 detailBreadcrumbSubTitle: 'Single Service'
 detailBreadcrumbDesc: 'Construction of itself, because it is pain some proper style design occur are pleasure'
 detailSubTitle: 'Provide the best Constructin services for our client with their satisfaction we have expert team, modern equipments and quality materials'
