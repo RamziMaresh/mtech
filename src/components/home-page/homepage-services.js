@@ -6,7 +6,7 @@ import SwiperComps, { Slide } from '../swiper';
 
 function HomePageServices({ services, settings }) {
 
-    const imgmain ='/images/logo/companies/main.jpg'
+    const imgmain ='/images/logo/companies/companies.svg'
     settings = {
         spaceBetween: 30,
         pagination: false,
