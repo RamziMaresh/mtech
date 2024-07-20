@@ -51,7 +51,7 @@ function ProjectsHistory({ footerItems }) {
     return (
         <>
             <Head>
-                <title>Projects History</title>
+                <title>Projects History - MTech</title>
                 <meta
                     name="description"
                     content="M-Tech - Founded in 2013, M-TECH provides wide range of services that includes engineering, procurement and execution to the oil & gas, petrochemicals & industrial cities."

@@ -12,7 +12,7 @@
         width: calc(100% - 180px);
     }
     @include breakpoint(max-xxs-device) {
-        padding-top: 30px;
+        padding-top: 0px;
         width: 100%;
     }
 }
@@ -54,7 +54,7 @@
     }
     &_title {
         @include breakpoint(min-xs-device) {
-            transform: rotate(-90deg);
+            margin-top: 40px;
         }
         &__wrap {
             display: flex;
@@ -71,11 +71,11 @@
         }
         h2 {
             color: $white;
-            font-size: 60px;
-            line-height: 1;
+            font-size: 40px;
+            line-height: 0;
             max-width: 425px;
             @include breakpoint(max-sm-device) {
-                font-size: 40px;
+                font-size: 30px;
             }
             @include breakpoint(max-xxs-device) {
                 margin-bottom: 0;

@@ -33,11 +33,7 @@ function LatestProject({ projects, projectSectionItems, settings }) {
     return (
         <div>
             <div className={classes.bg}>
-                <div className={classes.btn__wrap}>
-                    <div className={classes.btn}>
-                        <span>M-Tech</span>
-                    </div>
-                </div>
+
                 <Container fluid className="px-0">
                     <div className={classes.slider_with__section}>
                         <div className={classes.section_area}>
