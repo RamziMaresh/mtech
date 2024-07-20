@@ -2,7 +2,7 @@ import React from 'react';
 import { useTable } from "react-table";
 import { Container, Row } from 'react-bootstrap';
 import serviceData from "./project_two_DATA.json";
-import classes from './projecthistory.module.scss'
+import classes from './index.module.scss'
 
 
 
@@ -52,7 +52,7 @@ function ProjectsHistoryTwo() {
                         <table {...getTableProps()} className={classes.table}>
                             <thead>
                                 {headerGroups.map((headerGroup) => (
-                                    <tr className={classes.tr}{...headerGroup.getHeaderGroupProps()}>
+                                    <tr className={classes.tr}{...headerGroup.getHeaderGroupProps()} key={columns.id}>
                                         {headerGroup.headers.map((column) => (
                                             <th className={classes.th} {...column.getHeaderProps()}>
                                                 {column.render("Header")}
@@ -65,7 +65,7 @@ function ProjectsHistoryTwo() {
                                 {rows.map((row) => {
                                     prepareRow(row);
                                     return (
-                                        <tr className={classes.tr} {...row.getRowProps()}>
+                                        <tr className={classes.tr} {...row.getRowProps()} key={columns.id}> 
                                             {row.cells.map((cell) => (
                                                 <td className={classes.td} {...cell.getCellProps()}> {cell.render("Cell")} </td>
                                             ))}

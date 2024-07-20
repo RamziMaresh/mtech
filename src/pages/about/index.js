@@ -11,8 +11,7 @@ import TeamTwo from '../../components/team/index-2';
 
 function AboutPage({
     bannerThreeItems,
-    teamItems,
-    teamSectionItems,
+
     footerItems,
     brandItems,
     teamItemsTwo,
@@ -33,7 +32,7 @@ function AboutPage({
             />
             <AboutOne />
             <BannerThree bannerThreeItems={bannerThreeItems} />
-            <Team teamItems={teamItems} teamSectionItems={teamSectionItems} />
+            <Team />
 
             <BrandOne brandItems={brandItems} />
             <TeamTwo teamItemsTwo={teamItemsTwo} />
@@ -47,15 +46,12 @@ export function getStaticProps() {
     const brandItems = getAllItems('brand');
     const teamItemsTwo = getAllItems('team-02');
     const bannerThreeItems = getAllItems('banner-3');
-    const teamSectionItems = getAllItems('team-section');
-    const teamItems = getAllItems('team');
+
     const footerItems = getAllItems('footer');
 
     return {
         props: {
             bannerThreeItems,
-            teamSectionItems,
-            teamItems,
             footerItems,
             brandItems,
             teamItemsTwo,
@@ -65,12 +61,9 @@ export function getStaticProps() {
 
 AboutPage.propTypes = {
     bannerThreeItems: PropTypes.instanceOf(Object).isRequired,
-    teamItems: PropTypes.instanceOf(Object).isRequired,
-    teamSectionItems: PropTypes.instanceOf(Object).isRequired,
     footerItems: PropTypes.instanceOf(Object).isRequired,
     teamItemsTwo: PropTypes.instanceOf(Object).isRequired,
     brandItems: PropTypes.instanceOf(Object).isRequired,
-
 
 };
 
