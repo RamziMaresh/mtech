@@ -9,7 +9,6 @@ import { getAllItems, getFeaturedItems } from '../lib/items-util';
 
 function HomePage({
     heroItems,
-    aboutItems,
     projects,
     projectSectionItems,
     services,
@@ -26,7 +25,7 @@ function HomePage({
                 />
             </Head>
             <Hero heroItems={heroItems} />
-            <AboutOne aboutItems={aboutItems} />
+            <AboutOne/>
             <LatestProject
                 projects={projects}
                 projectSectionItems={projectSectionItems}
@@ -48,7 +47,6 @@ function HomePage({
 
 export function getStaticProps() {
     const heroItems = getAllItems('heros');
-    const aboutItems = getAllItems('about');
     const projectSectionItems = getAllItems('project-section');
     const projects = getAllItems('projects');
     const LatestProject = getFeaturedItems(projects);
@@ -60,7 +58,6 @@ export function getStaticProps() {
     return {
         props: {
             heroItems,
-            aboutItems,
             projectSectionItems,
             projects: LatestProject,
             services: HomePageServices,
@@ -72,7 +69,6 @@ export function getStaticProps() {
 
 HomePage.propTypes = {
     heroItems: PropTypes.instanceOf(Object).isRequired,
-    aboutItems: PropTypes.instanceOf(Object).isRequired,
     projects: PropTypes.instanceOf(Object).isRequired,
     projectSectionItems: PropTypes.instanceOf(Object).isRequired,
     brandItems: PropTypes.instanceOf(Object).isRequired,

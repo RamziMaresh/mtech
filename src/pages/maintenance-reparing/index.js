@@ -2,12 +2,12 @@ import React from 'react';
 import Head from 'next/head';
 import PropTypes from 'prop-types';
 import { Container, Row , Col} from 'react-bootstrap';
+import { useTable } from "react-table";
 import Breadcrumb from '../../components/breadcrumb';
 import Footer from '../../components/layout/footer';
 import { getAllItems } from '../../lib/items-util';
 import classes from './index.module.scss';
 import RichText from '../../components/rich-text';
-import { useTable } from "react-table";
 import fakeData from "./Service_DATA.json";
 
 
@@ -55,16 +55,6 @@ function MaintenancePage({ footerItems, richTexts, }) {
                     <Row >
 
                         <Col lg={{ span: 9 }} className="pe-lg-20">
-
-                            {/** 
-                        <div className="banner">
-                            <img
-                                className="img-full"
-                                src={imagePath}
-                                alt='Maintenance-Repairing'
-                            />
-                        </div>
-                        */}
                             <div className={classes.content}>
                                 <h2 className={classes.title}>Maintenance & Repairing</h2>
                                 <h3 className={classes.subtitle}>Pressure Hydro - Test</h3>
@@ -112,12 +102,12 @@ function MaintenancePage({ footerItems, richTexts, }) {
                                 <br />
                             </div>
 
-                            <table {...getTableProps()} className={classes.table}>
+                            <table {...getTableProps()} className={classes.table} key={data.id}>
                                 <thead>
                                     {headerGroups.map((headerGroup) => (
-                                        <tr className={classes.tr}{...headerGroup.getHeaderGroupProps()}>
+                                        <tr className={classes.tr}{...headerGroup.getHeaderGroupProps()} key={data.id}>
                                             {headerGroup.headers.map((column) => (
-                                                <th className={classes.th} {...column.getHeaderProps()}>
+                                                <th className={classes.th} {...column.getHeaderProps()} key={data.id}>
                                                     {column.render("Header")}
                                                 </th>
                                             ))}
@@ -128,9 +118,9 @@ function MaintenancePage({ footerItems, richTexts, }) {
                                     {rows.map((row) => {
                                         prepareRow(row);
                                         return (
-                                            <tr className={classes.tr} {...row.getRowProps()}>
+                                            <tr className={classes.tr} {...row.getRowProps()} key={data.id}>
                                                 {row.cells.map((cell) => (
-                                                    <td className={classes.td} {...cell.getCellProps()}> {cell.render("Cell")} </td>
+                                                    <td className={classes.td} {...cell.getCellProps()} key={data.id}> {cell.render("Cell")} </td>
                                                 ))}
                                             </tr>
                                         );

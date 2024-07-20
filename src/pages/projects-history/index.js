@@ -1,12 +1,12 @@
 import React from 'react';
 import Head from 'next/head';
 import PropTypes from 'prop-types';
+import { Container, Row} from 'react-bootstrap';
+import { useTable } from "react-table";
 import Breadcrumb from '../../components/breadcrumb';
 import Footer from '../../components/layout/footer';
 import { getAllItems } from '../../lib/items-util';
 import classes from './projects.module.scss';
-import { Container, Row} from 'react-bootstrap';
-import { useTable } from "react-table";
 import serviceData from "./Projects_DATA.json";
 import ProjectsHistoryTwo from '../../components/projects-history-two';
 
@@ -70,12 +70,12 @@ function ProjectsHistory({ footerItems }) {
                             <h3 className={classes.subtitletwo}>CIVIL & CONSTRUCTION</h3>
                         </div>
 
-                        <table {...getTableProps()} className={classes.table}>
+                        <table {...getTableProps()} className={classes.table} key={data.id}>
                             <thead>
                                 {headerGroups.map((headerGroup) => (
-                                    <tr className={classes.tr}{...headerGroup.getHeaderGroupProps()}>
+                                    <tr className={classes.tr}{...headerGroup.getHeaderGroupProps()} key={data.id}>
                                         {headerGroup.headers.map((column) => (
-                                            <th className={classes.th} {...column.getHeaderProps()}>
+                                            <th className={classes.th} {...column.getHeaderProps()} key={data.id}>
                                                 {column.render("Header")}
                                             </th>
                                         ))}
@@ -86,9 +86,9 @@ function ProjectsHistory({ footerItems }) {
                                 {rows.map((row) => {
                                     prepareRow(row);
                                     return (
-                                        <tr className={classes.tr} {...row.getRowProps()}>
+                                        <tr className={classes.tr} {...row.getRowProps()} key={data.id}>
                                             {row.cells.map((cell) => (
-                                                <td className={classes.td} {...cell.getCellProps()}> {cell.render("Cell")} </td>
+                                                <td className={classes.td} {...cell.getCellProps()} key={data.id}> {cell.render("Cell")} </td>
                                             ))}
                                         </tr>
                                     );
@@ -99,13 +99,8 @@ function ProjectsHistory({ footerItems }) {
 
                 </Container>
                 <ProjectsHistoryTwo />
-
             </div>
-            {/**
 
-            <OurServices ourServices={ourServices} />
-
-                         */}
             <Footer footerItems={footerItems} />
         </>
     );
