@@ -53,11 +53,7 @@ function Contact({ contactItems }) {
                                 <h2 className={classes.form_title}>
                                     {contactItem?.formTitle}
                                 </h2>
-                                {/**
-                                <p className={`${classes.form_desc} mb-0`}>
-                                    {contactItem?.formDesc}
-                                </p>
-                                 */}
+
                                 <form className={classes.form}>
                                     <div className={classes.form_group__input}>
                                         <input
