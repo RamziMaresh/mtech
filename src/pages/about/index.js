@@ -10,7 +10,6 @@ import BrandOne from '../../components/brand';
 import TeamTwo from '../../components/team/index-2';
 
 function AboutPage({
-    aboutItems,
     bannerThreeItems,
     teamItems,
     teamSectionItems,
@@ -32,7 +31,7 @@ function AboutPage({
                 subTitle="What we do"
                 title="About us"
             />
-            <AboutOne aboutItems={aboutItems} />
+            <AboutOne/>
             <BannerThree bannerThreeItems={bannerThreeItems} />
             <Team teamItems={teamItems} teamSectionItems={teamSectionItems} />
 
@@ -45,7 +44,6 @@ function AboutPage({
 }
 
 export function getStaticProps() {
-    const aboutItems = getAllItems('about');
     const brandItems = getAllItems('brand');
     const teamItemsTwo = getAllItems('team-02');
     const bannerThreeItems = getAllItems('banner-3');
@@ -55,7 +53,6 @@ export function getStaticProps() {
 
     return {
         props: {
-            aboutItems,
             bannerThreeItems,
             teamSectionItems,
             teamItems,
@@ -67,7 +64,6 @@ export function getStaticProps() {
 }
 
 AboutPage.propTypes = {
-    aboutItems: PropTypes.instanceOf(Object).isRequired,
     bannerThreeItems: PropTypes.instanceOf(Object).isRequired,
     teamItems: PropTypes.instanceOf(Object).isRequired,
     teamSectionItems: PropTypes.instanceOf(Object).isRequired,
