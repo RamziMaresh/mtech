@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from './index.module.scss';
+import classes from './projecthistory.module.scss'
 import { Container, Row } from 'react-bootstrap';
 import { useTable } from "react-table";
 import serviceData from "./project_two_DATA.json";

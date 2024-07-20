@@ -74,7 +74,6 @@ function HomePageServices({ services, settings }) {
 
 HomePageServices.propTypes = {
     services: PropTypes.instanceOf(Object).isRequired,
-    serviceSectionItems: PropTypes.instanceOf(Object).isRequired,
     settings: PropTypes.shape({
         slidesPerView: PropTypes.number,
         spaceBetween: PropTypes.number,
