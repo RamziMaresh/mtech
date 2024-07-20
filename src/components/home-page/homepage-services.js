@@ -5,8 +5,7 @@ import classes from '../services/service.module.scss';
 import SwiperComps, { Slide } from '../swiper';
 
 function HomePageServices({ services, settings }) {
-
-    const imgmain ='/images/logo/companies/companies.svg'
+    const imgmain = '/images/logo/companies/companies.svg'
     settings = {
         spaceBetween: 30,
         pagination: false,
@@ -20,7 +19,7 @@ function HomePageServices({ services, settings }) {
                 slidesPerView: 3,
             },
             768: {
-                slidesPerView: 2,
+                slidesPerView: 3,
             },
             576: {
                 slidesPerView: 1,
@@ -33,22 +32,17 @@ function HomePageServices({ services, settings }) {
     return (
         <div className={classes.area}>
             <Container>
-
                 <div className={classes.contentone}
                 >
                     <h2 className={classes.title}>
-                        Our Companies 
+                        Our Companies
                     </h2>
-
-                    <img src={imgmain} alt='' />
+                    <img src={imgmain} alt='Mtech-Companies' />
                 </div>
-
-
                 <div className={classes.contentone}
                 >
                     <h2 className={classes.title}>
                         M-Tech Services
-
                     </h2>
                 </div>
                 <div className={classes.navigation__holder}>
