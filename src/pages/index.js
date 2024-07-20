@@ -71,7 +71,6 @@ HomePage.propTypes = {
     heroItems: PropTypes.instanceOf(Object).isRequired,
     projects: PropTypes.instanceOf(Object).isRequired,
     projectSectionItems: PropTypes.instanceOf(Object).isRequired,
-    brandItems: PropTypes.instanceOf(Object).isRequired,
     services: PropTypes.instanceOf(Object).isRequired,
     serviceSectionItems: PropTypes.instanceOf(Object).isRequired,
     footerItems: PropTypes.instanceOf(Object).isRequired,
