@@ -18,7 +18,7 @@ function ServiceItem({ service }) {
                 />
             </a>
             <div className={classes.add__action}>
-                <h2 className="title mb-0">
+                <h2 className="title">
                     <a href={service.linkPath}>{service?.title}</a>
                 </h2>
             </div>

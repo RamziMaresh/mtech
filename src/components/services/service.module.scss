@@ -4,7 +4,6 @@
 .area {
     @include breakpoint(min-xl-device) {
         padding-top: 130px;
-        
         padding-bottom: 140px;
     }
     @include breakpoint(min-md-device) {
