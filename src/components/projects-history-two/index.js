@@ -41,7 +41,6 @@ function ProjectsHistoryTwo() {
 
 
     return (
-        <>
             <div className={classes.area}>
                 <Container>
                     <Row>
@@ -78,7 +77,6 @@ function ProjectsHistoryTwo() {
                     </Row>
                 </Container>
             </div>
-        </>
     );
 }
 export default ProjectsHistoryTwo;
