@@ -14,7 +14,6 @@ import fakeData from "./Service_DATA.json";
 //
 
 
-
 function MaintenancePage({ footerItems, richTexts, }) {
 
     const data = React.useMemo(() => fakeData, []);
@@ -142,18 +141,11 @@ function MaintenancePage({ footerItems, richTexts, }) {
                                 </tbody>
                             </table>
 
-
-
                         </Col>
                     </Row>
-
                 </Container>
             </div>
-            {/**
-
-            <OurServices ourServices={ourServices} />
-
-                         */}
+            
             <Footer footerItems={footerItems} />
         </>
     );
@@ -172,7 +164,6 @@ export function getStaticProps() {
 }
 
 MaintenancePage.propTypes = {
-    aboutItems: PropTypes.instanceOf(Object).isRequired,
     richTexts: PropTypes.instanceOf(Object).isRequired,
     footerItems: PropTypes.instanceOf(Object).isRequired,
 };

@@ -5,7 +5,7 @@ import Breadcrumb from '../../components/breadcrumb';
 import BannerThree from '../../components/banner/index-3';
 import Footer from '../../components/layout/footer';
 import Team from '../../components/team';
-import { getAllItems, getFeaturedItems } from '../../lib/items-util';
+import { getAllItems } from '../../lib/items-util';
 import BrandOne from '../../components/brand';
 import TeamTwo from '../../components/team/index-2';
 
@@ -36,10 +36,8 @@ function AboutPage({
             <BannerThree bannerThreeItems={bannerThreeItems} />
             <Team teamItems={teamItems} teamSectionItems={teamSectionItems} />
 
-
             <BrandOne brandItems={brandItems} />
             <TeamTwo teamItemsTwo={teamItemsTwo} />
-
 
             <Footer footerItems={footerItems} />
         </>
@@ -50,10 +48,7 @@ export function getStaticProps() {
     const aboutItems = getAllItems('about');
     const brandItems = getAllItems('brand');
     const teamItemsTwo = getAllItems('team-02');
-
     const bannerThreeItems = getAllItems('banner-3');
-    const projects = getAllItems('projects');
-    const LatestProject = getFeaturedItems(projects);
     const teamSectionItems = getAllItems('team-section');
     const teamItems = getAllItems('team');
     const footerItems = getAllItems('footer');
@@ -67,7 +62,6 @@ export function getStaticProps() {
             footerItems,
             brandItems,
             teamItemsTwo,
-
         },
     };
 }
@@ -75,8 +69,6 @@ export function getStaticProps() {
 AboutPage.propTypes = {
     aboutItems: PropTypes.instanceOf(Object).isRequired,
     bannerThreeItems: PropTypes.instanceOf(Object).isRequired,
-    projects: PropTypes.instanceOf(Object).isRequired,
-    projectSectionItems: PropTypes.instanceOf(Object).isRequired,
     teamItems: PropTypes.instanceOf(Object).isRequired,
     teamSectionItems: PropTypes.instanceOf(Object).isRequired,
     footerItems: PropTypes.instanceOf(Object).isRequired,

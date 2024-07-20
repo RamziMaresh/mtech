@@ -80,19 +80,10 @@ function ConstructionPage({ footerItems, richTextsTwo, }) {
                                     alt='EPOXY-APPLICATION-img'
                                 />
                             </div>
-
                         </Col>
                     </Row>
-
                 </Container>
-
             </div>
-
-            {/**
-
-            <OurServices ourServices={ourServices} />
-
-                         */}
             <Footer footerItems={footerItems} />
         </>
     );
@@ -111,7 +102,6 @@ export function getStaticProps() {
 }
 
 ConstructionPage.propTypes = {
-    aboutItems: PropTypes.instanceOf(Object).isRequired,
     richTextsTwo: PropTypes.instanceOf(Object).isRequired,
     footerItems: PropTypes.instanceOf(Object).isRequired,
 };

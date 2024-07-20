@@ -2,12 +2,7 @@ import PropTypes from 'prop-types';
 import classes from './service.module.scss';
 
 
-
-
 //  For the services in home page
-
-
-
 
 function ServiceItem({ service }) {
     const imagePath = `/images/services/${service?.slug}/${service?.mediumImage}`;

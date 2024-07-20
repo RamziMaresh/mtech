@@ -4,6 +4,8 @@ import { Container } from 'react-bootstrap';
 import classes from './brand.module.scss';
 import { Slide } from '../swiper';
 
+
+/**Page out clients  */
 function BrandTwo({ brandItems, settings }) {
     const SwiperComps = dynamic(() => import('../swiper'), {
         ssr: false,

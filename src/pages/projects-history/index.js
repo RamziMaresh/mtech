@@ -5,7 +5,7 @@ import Breadcrumb from '../../components/breadcrumb';
 import Footer from '../../components/layout/footer';
 import { getAllItems } from '../../lib/items-util';
 import classes from './projects.module.scss';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row} from 'react-bootstrap';
 import { useTable } from "react-table";
 import serviceData from "./Projects_DATA.json";
 import ProjectsHistoryTwo from '../../components/projects-history-two';

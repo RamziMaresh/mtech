@@ -1,7 +1,7 @@
 import { useEffect, useState, useRef } from 'react';
 import Link from 'next/link';
 import { Col, Container, Row } from 'react-bootstrap';
-import { FaSearch, FaBars, FaGlobe, FaEnvelope } from 'react-icons/fa';
+import { FaSearch, FaBars} from 'react-icons/fa';
 import { IoCloseOutline } from 'react-icons/io5';
 import { useRouter } from 'next/router';
 import classes from './header.module.scss';

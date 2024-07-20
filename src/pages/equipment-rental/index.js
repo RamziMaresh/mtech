@@ -87,15 +87,8 @@ function ConstructionPage({ footerItems }) {
                             />
                         </div>
                     </Row>
-
                 </Container>
             </div>
-
-            {/**
-
-            <OurServices ourServices={ourServices} />
-
-                         */}
             <Footer footerItems={footerItems} />
         </>
     );
@@ -111,7 +104,6 @@ export function getStaticProps() {
 }
 
 ConstructionPage.propTypes = {
-    aboutItems: PropTypes.instanceOf(Object).isRequired,
     footerItems: PropTypes.instanceOf(Object).isRequired,
 };
 
