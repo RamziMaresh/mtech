@@ -6,7 +6,6 @@ function Team({ teamSectionItems }) {
     return (
         <div className={classes.area}>
             {teamSectionItems?.map((items) => {
-                return (
                     <Container key={items.id}>
                         <div className={classes.section}>
                             <div className={classes.section__wrap}>
@@ -22,7 +21,6 @@ function Team({ teamSectionItems }) {
                             </div>
                         </div>
                     </Container>
-                );
             })}
         </div>
     );

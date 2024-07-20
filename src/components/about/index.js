@@ -1,13 +1,11 @@
 import PropTypes from 'prop-types';
 import { Col, Container, Row } from 'react-bootstrap';
-import * as FaIcons from 'react-icons/fa';
 import classes from './about.module.scss';
 
 function AboutOne({ aboutItems }) {
     return (
         <div className={classes.area}>
             {aboutItems?.map((aboutItem) => {
-                const CheckIcon = FaIcons[aboutItem?.checkIcon];
                 return (
                     <Container key={aboutItem.id}>
                         <div className={classes.section}>
