@@ -1,12 +1,11 @@
 import Head from 'next/head';
 import PropTypes from 'prop-types';
+import { Container, Row, Col } from 'react-bootstrap';
 import Breadcrumb from '../../components/breadcrumb';
 import Footer from '../../components/layout/footer';
 import { getAllItems } from '../../lib/items-util';
-import { Col } from 'react-bootstrap';
-import classes from './index.module.scss';
-import { Container, Row } from 'react-bootstrap';
 import RichTextTwo from '../../components/rich-text-two';
+import classes from './index.module.scss';
 
 
 function ConstructionPage({ footerItems, richTextsTwo, }) {

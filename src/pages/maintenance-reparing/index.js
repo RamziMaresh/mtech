@@ -1,17 +1,14 @@
 import React from 'react';
 import Head from 'next/head';
 import PropTypes from 'prop-types';
+import { Container, Row , Col} from 'react-bootstrap';
 import Breadcrumb from '../../components/breadcrumb';
 import Footer from '../../components/layout/footer';
 import { getAllItems } from '../../lib/items-util';
-import { Col } from 'react-bootstrap';
 import classes from './index.module.scss';
-import { Container, Row } from 'react-bootstrap';
 import RichText from '../../components/rich-text';
 import { useTable } from "react-table";
 import fakeData from "./Service_DATA.json";
-
-//
 
 
 function MaintenancePage({ footerItems, richTexts, }) {

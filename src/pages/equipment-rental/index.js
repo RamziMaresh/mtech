@@ -1,11 +1,10 @@
 import Head from 'next/head';
 import PropTypes from 'prop-types';
+import { Container, Row, Col } from 'react-bootstrap';
 import Breadcrumb from '../../components/breadcrumb';
 import Footer from '../../components/layout/footer';
 import { getAllItems } from '../../lib/items-util';
-import { Col } from 'react-bootstrap';
 import classes from './index.module.scss';
-import { Container, Row } from 'react-bootstrap';
 
 function ConstructionPage({ footerItems }) {
     const imagePath = 'images/rich-text/trucks-service-03.jpg';
