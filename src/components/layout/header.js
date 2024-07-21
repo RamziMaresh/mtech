@@ -1,7 +1,7 @@
 import { useEffect, useState, useRef } from 'react';
 import Link from 'next/link';
 import { Col, Container, Row } from 'react-bootstrap';
-import { FaSearch, FaBars} from 'react-icons/fa';
+import { FaSearch, FaBars } from 'react-icons/fa';
 import { IoCloseOutline } from 'react-icons/io5';
 import { useRouter } from 'next/router';
 import classes from './header.module.scss';
@@ -195,7 +195,7 @@ function Header() {
                                                 className={classes.search__btn}
                                                 onClick={SearchToggle}
                                             >
-                                                <FaSearch/>
+                                                <FaSearch />
                                             </buton>
                                             <form className="search-form">
                                                 <input

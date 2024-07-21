@@ -46,7 +46,8 @@
     }
 }
 .main {
-    background-color: #6C3596;
+    background: rgb(102, 51, 153);
+    background: linear-gradient(90deg, rgba(102, 51, 153, 1) 0%, rgba(59, 7, 100, 1) 100%);
 }
 .menu {
     &__list {

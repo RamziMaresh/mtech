@@ -2,21 +2,24 @@
 @import '../../styles/abstract/custom-mixins';
 
 .bg {
-    background-image: url('/images/footer/bg/1-1-1920x454.png');
-    background-repeat: no-repeat;
-    background-size: cover;
+
+    background: rgb(102, 51, 153);
+    background: linear-gradient(90deg, rgba(102, 51, 153, 1) 0%, rgba(59, 7, 100, 1) 100%);
     padding-top: 100px;
     padding-bottom: 80px;
 }
+
 .logo {
     padding-bottom: 20px;
     display: block;
 }
+
 .desc {
     margin-bottom: 25px;
     color: lightgray;
     font-size: 16px;
 }
+
 .inquary {
     &_info {
         margin-bottom: 5px;
@@ -24,46 +27,56 @@
         font-size: 18px;
         line-height: 1.2;
     }
+
     &_number {
         color: #FFFFFF;
         font-size: 20px;
+
         &:hover {
             color: $white;
         }
     }
 }
+
 .widget {
     &__item {
         .widget {
+
             &_address,
             &_number {
                 color: #FFFFFF;
             }
+
             &_address {
                 margin-bottom: 5px;
                 font-size: 18px;
                 line-height: 1.5;
             }
+
             &_number {
                 font-size: 16px;
                 line-height: 1.5;
             }
         }
     }
+
     &__title {
         margin-bottom: 30px;
         font-size: 28px;
         line-height: 1.2;
         color: white;
     }
+
     &__list {
         li {
             &:not(:last-child) {
                 padding-bottom: 15px;
             }
+
             a {
                 color: white;
                 font-size: 18px;
+
                 &:hover {
                     color: $white;
                 }
@@ -71,55 +84,69 @@
         }
     }
 }
+
 .bottom {
     background-color: #29173E;
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
 .social {
     display: flex;
+
     @include breakpoint(max-sm-device) {
         justify-content: center;
         padding-bottom: 10px;
     }
+
     li {
         text-align: center;
+
         &:not(:last-child) {
             margin-right: 20px;
         }
+
         a {
             color: #FFFFFF;
             padding: 5px 10px;
             display: flex;
             align-items: center;
+
             &:hover {
                 color: $primary;
             }
         }
     }
 }
+
 .copyright {
     span {
         display: flex;
         align-items: center;
         justify-content: flex-end;
+
         @include breakpoint(max-sm-device) {
             justify-content: center;
         }
+
         @include breakpoint(max-xxs-device) {
             flex-wrap: wrap;
         }
+
         &.text {
             color: #ffffff;
         }
+
         &.icon {
             color: #dc3545;
             margin-left: 5px;
             margin-right: 5px;
         }
+
         a {
             color: #cfe1ff;
             margin-left: 5px;
+
             &:hover {
                 color: #dc3545;
             }

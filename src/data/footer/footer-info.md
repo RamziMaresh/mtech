@@ -20,13 +20,12 @@ informationList:
 quickLinkTitle: 'Quick Links'
 quickLinkList:
     [
-        { id: 'quickLinkList-01', title: 'Support Center', path: 'contact' },
         {
-            id: 'quickLinkList-02',
+            id: 'quickLinkList-01',
             title: 'Terms & Conditions',
             path: 'contact',
         },
-        { id: 'quickLinkList-03', title: 'Clients & Reviews', path: 'about' },
+        { id: 'quickLinkList-02', title: 'Company Location', path: 'about' },
     ]
 contactInfoTitle: 'Contact Info'
 widgetAddress: 'MAASI Business Center, Office No.10 4th Floor, <span class="text-white"> Abdul Rahman Al Dakhil Street, Rakah.</span>'
