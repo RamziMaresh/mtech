@@ -254,7 +254,8 @@ iframe {
 .offcanvas {
     &-menu {
         transition: all 500ms linear;
-        background-color: #333333;
+        background: rgb(102, 51, 153);
+        background: linear-gradient(90deg, rgba(102, 51, 153, 1) 0%, rgba(59, 7, 100, 1) 100%);
         padding-top: 50px;
         padding-left: 50px;
         padding-right: 50px;
@@ -267,7 +268,7 @@ iframe {
         z-index: 99;
         opacity: 0;
         overflow-y: auto;
-        width: calc(100% - 30px);
+        width: calc(100% - 150px);
         @include breakpoint(min-xs-device) {
             width: 350px;
         }
