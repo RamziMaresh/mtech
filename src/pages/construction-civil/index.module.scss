@@ -27,7 +27,7 @@
     font-size: 40px;
     line-height: 1.2;
     @include breakpoint(max-sm-device) {
-        font-size: 40px;
+        font-size: 25px;
     }
 }
 .subtitle {
@@ -48,7 +48,7 @@
     font-weight: 600;
     color: $primary;
     @include breakpoint(max-sm-device) {
-        font-size: 25px;
+        font-size: 20px;
     }
 }
 .desc {
