@@ -22,17 +22,17 @@ export const OffcanvasData = [
             {
                 id: 'submenu-01',
                 link: '/maintenance-reparing',
-                text: 'Maintenance & Repairing',
+                text: '- Maintenance & Repairing',
             },
             {
                 id: 'submenu-02',
                 link: '/construction-civil',
-                text: 'Construction & Civil',
+                text: '- Construction & Civil',
             },
             {
                 id: 'submenu-03',
                 link: '/equipment-rental',
-                text: 'Equipment Rental',
+                text: '- Equipment Rental',
             },
 
         ],
@@ -47,7 +47,7 @@ export const OffcanvasData = [
             {
                 id: 'submenu-01',
                 link: '/projects-history',
-                text: 'Projects History',
+                text: '- Projects History',
             },
         ],
     },

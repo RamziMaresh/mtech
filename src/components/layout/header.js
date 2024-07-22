@@ -147,17 +147,17 @@ function Header() {
                                             >
                                                 <li>
                                                     <Link href="/maintenance-reparing">
-                                                        Maintenance & Repairing
+                                                        - Maintenance & Repairing
                                                     </Link>
                                                 </li>
                                                 <li>
                                                     <Link href="/construction-civil">
-                                                        Construction & Civil
+                                                        - Construction & Civil
                                                     </Link>
                                                 </li>
                                                 <li>
                                                     <Link href="/equipment-rental">
-                                                        Equipment Rental
+                                                        - Equipment Rental
                                                     </Link>
                                                 </li>
                                             </ul>
@@ -174,7 +174,7 @@ function Header() {
 
                                                 <li>
                                                     <Link href="/projects-history">
-                                                        Projects History
+                                                        - Projects History
                                                     </Link>
                                                 </li>
                                             </ul>
