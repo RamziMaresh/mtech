@@ -8,6 +8,10 @@
     background-color:#29173E;
     padding-top: 15px;
     padding-bottom: 15px;
+    @include breakpoint(max-xs-device) {
+        background: rgb(102, 51, 153);
+        background: linear-gradient(90deg, rgba(102, 51, 153, 1) 0%, rgba(59, 7, 100, 1) 100%);
+    }
     a,
     span {
         font-family: $rajdhani;
