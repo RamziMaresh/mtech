@@ -17,7 +17,6 @@ function Breadcrumb({ subTitle, title }) {
 Breadcrumb.propTypes = {
     subTitle: PropTypes.string,
     title: PropTypes.string,
-    desc: PropTypes.string,
 };
 
 export default Breadcrumb;
