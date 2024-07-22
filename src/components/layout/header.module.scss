@@ -15,6 +15,7 @@
         font-weight: 500;
         margin-left: 5px;
         color: $white;
+        font-size: 14px;
     }
 }
 .info {
@@ -32,6 +33,7 @@
     align-items: center;
     height: 100%;
     color: white;
+    font-size: 14px;
     @include breakpoint(max-xs-device) {
         padding-top: 20px;
         justify-content: center;
@@ -71,12 +73,12 @@
             > a {
                 transition: $baseTransition;
                 font-family: $rajdhani;
-                font-weight: 600;
+                font-weight: 100;
                 color: $white;
                 display: block;
                 padding-top: 30px;
                 padding-bottom: 30px;
-                font-size: 20px;
+                font-size: 14px;
                 span {
                     position: relative;
                     display: block;
@@ -199,6 +201,7 @@
     }
     &_menu {
         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+        font-size: 14px;
         background-color: $white;
         position: absolute;
         visibility: hidden;

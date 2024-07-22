@@ -152,7 +152,7 @@ function Footer({ footerItems }) {
                                     <div className={classes.copyright}>
                                         <span className={classes.text}>
                                             © {new Date().getFullYear()}{' '}
-                                            All rights reserved | AL MAWARED Advance Tech Co.
+                                            All rights reserved | AL MAWARED Advance Tech. Co
                                         </span>
                                     </div>
                                 </Col>

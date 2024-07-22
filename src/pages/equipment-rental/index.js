@@ -50,7 +50,8 @@ function ConstructionPage({ footerItems }) {
                                 </div>
                             </div>
                             <div className={classes.content}>
-                                <h3 className={classes.subtitle}>EQUIPMENTS RENTAL</h3>
+                                <br/>
+                                <h3 className={classes.subtitle}>EQUIPMENTS RENTAL</h3><br/>
                             </div>
                         </Col>
 

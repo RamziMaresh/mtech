@@ -1,5 +1,4 @@
 import PropTypes from 'prop-types';
-import Link from 'next/link';
 import { Container } from 'react-bootstrap';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 import ProjectSlider from '../projects/project-slider';

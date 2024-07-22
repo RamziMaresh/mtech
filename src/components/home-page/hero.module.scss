@@ -26,7 +26,7 @@
 }
 .subtitle {
     font-family: $rajdhani;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 30px;
     display: block;
     color: $primary;
@@ -46,7 +46,7 @@
 }
 .title {
     h2 {
-        font-size: 88px;
+        font-size: 66px;
         line-height: 85px;
         font-weight: 700;
         max-width: 57%;
@@ -54,7 +54,7 @@
             max-width: 85%;
         }
         @include breakpoint(max-md-device) {
-            font-size: 50px;
+            font-size: 40px;
             line-height: 1;
         }
         @include breakpoint(max-sm-device) {

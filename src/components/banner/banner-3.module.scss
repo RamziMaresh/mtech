@@ -27,7 +27,8 @@
 }
 .primary {
     &__bg {
-        background-color: $primary;
+        background: rgb(102, 51, 153);
+        background: linear-gradient(90deg, rgba(102, 51, 153, 1) 0%, rgba(59, 7, 100, 1) 100%);
         .content {
             &:before {
                 color: #ff6e2b;
@@ -49,7 +50,8 @@
 
     h2{
         color: $primary;
-        font-size: 40px;
+        font-size: 30px;
+        margin-bottom: 40px;
     }
 }
 .content {
@@ -68,7 +70,7 @@
     }
 }
 .title {
-    font-size: 28px;
+    font-size: 20px;
     line-height: 1.2;
     color: $white;
 }
@@ -76,7 +78,7 @@
     font-family: $yantramanav;
     color: $white;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 16px;
 }
 .link {
     &__btn {

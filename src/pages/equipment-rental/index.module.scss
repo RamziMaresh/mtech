@@ -22,7 +22,7 @@
 }
 .title {
     margin-bottom: 40px;
-    font-size: 60px;
+    font-size: 40px;
     line-height: 1.2;
     @include breakpoint(max-sm-device) {
         font-size: 40px;
@@ -40,7 +40,7 @@
 }
 .subtitletwo {
     margin-bottom: 20px;
-    font-size: 28px;
+    font-size: 22px;
     line-height: 1.2;
     font-weight: 800;
     color: $primary;

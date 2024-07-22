@@ -46,7 +46,7 @@
         }
         h2 {
             max-width: 425px;
-            font-size: 60px;
+            font-size: 45px;
             line-height: 1;
             @include breakpoint(max-sm-device) {
                 font-size: 40px;
@@ -83,6 +83,6 @@
     h2{
         text-transform:uppercase;
         color: $primary;
-        font-size: 40px;
+        font-size: 30px;
     }
 }

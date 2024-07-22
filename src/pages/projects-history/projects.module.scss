@@ -40,9 +40,9 @@
 }
 .subtitletwo {
     margin-bottom: 20px;
-    font-size: 28px;
+    font-size: 22px;
     line-height: 1.2;
-    font-weight: 800;
+    font-weight: 600;
     color: $primary;
     @include breakpoint(max-sm-device) {
         font-size: 25px;
