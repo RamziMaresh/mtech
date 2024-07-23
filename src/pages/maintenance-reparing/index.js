@@ -67,13 +67,13 @@ function MaintenancePage({ footerItems, richTexts, }) {
                             </div>
 
                             <div className={classes.content}>
-                                <h3 className={classes.subtitle}>VALVES OVERHAULING & REPAIR</h3>
+                                <h3 className={classes.subtitle}>Values Overhauling And Repair</h3>
                                 <p className={classes.desc}>We are doing servicing of manytypes of Industrial Valves. withwell-equipped team andoutstanding expert work force,
                                     the unit provides both onsite andoffsite servicing activities whetherthe requirement is for one valve orfor a complete plant.</p>
                             </div>
 
                             <div className={classes.content}>
-                                <h3 className={classes.subtitle}>Pressure Safety Valve – TREVI Test</h3>
+                                <h3 className={classes.subtitle}>Pressure Safety Valve - TREVI Test</h3>
                                 <p className={classes.desc}>Online testing of steam relief safety valves. Aload cell is mounted with electronic DC motorpuller on the valves stem top.
                                     This pulls thestem thereby trying to lift the disc. The netresult is that the valve pops at a pressure setpressure less electronic pressure calculated onthe basis of disc area.</p>
                             </div>
@@ -85,7 +85,7 @@ function MaintenancePage({ footerItems, richTexts, }) {
                             </div>
 
                             <div className={classes.content}>
-                                <h3 className={classes.subtitle}>Technical Support & Manpower Supply</h3>
+                                <h3 className={classes.subtitle}>Technical Support And Manpower Supply</h3>
                                 <p className={classes.desc}>We have supplied professional and experiencedengineers, skilled and semi-skilled techniciansand workers
                                     to companies and contractorsworldwide in the oil and gas and petrochemicalindustries especially from all line of our services.</p>
                             </div>

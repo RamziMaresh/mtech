@@ -89,7 +89,7 @@ function Header() {
                                 <div className="header-logo">
                                     <Link href="/" className={classes.logo}>
                                         <img
-                                            src="/images/logo/light.png"
+                                            src="/images/logo/white.png"
                                             alt="M-tech Logo Header"
                                         />
                                     </Link>

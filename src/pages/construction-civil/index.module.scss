@@ -24,7 +24,7 @@
 }
 .title {
     margin-bottom: 40px;
-    font-size: 40px;
+    font-size: 30px;
     line-height: 1.2;
     @include breakpoint(max-sm-device) {
         font-size: 25px;
@@ -52,7 +52,7 @@
     }
 }
 .desc {
-    font-size: 18px;
+    font-size: 15px;
     margin-bottom: 10px;
     text-align: justify;
 }

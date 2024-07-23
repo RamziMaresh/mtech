@@ -49,7 +49,7 @@ function Contact({ contactItems }) {
                                 </div>
                             </Col>
 
-                            <Col lg={{ span: 6 }}>
+                            <Col lg={{ span: 6 }} className="ps-50">
                                 <h2 className={classes.form_title}>
                                     {contactItem?.formTitle}
                                 </h2>
