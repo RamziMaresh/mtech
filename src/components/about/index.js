@@ -15,7 +15,7 @@ function AboutOne() {
                             <div className={classes.section__wrap}>
                                 <div className={classes.section__title}>
                                     <span>About Us</span>
-                                    <h2>Almawared Advance Tech Co.</h2>
+                                    <h2>AL MAWARED Advance Tech Co.</h2>
                                 </div>
                                 <p
                                     className={classes.section__desc}>
