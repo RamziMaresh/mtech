@@ -1,13 +1,15 @@
 import PropTypes from 'prop-types';
 import { Container } from 'react-bootstrap';
+import classes from './crumb.module.scss';
+
 
 function Breadcrumb({ subTitle, title }) {
     return (
         <div className="page_banner__bg">
             <Container>
-                <div className="page_content">
+                <div className={classes.pagecontent}>
                     <span className="page_subtitle">{subTitle}</span>
-                    <h1 className="page_title">{title}</h1>
+                    <h1 className={classes.pagetitle}>{title}</h1>
                 </div>
             </Container>
         </div>

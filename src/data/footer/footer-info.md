@@ -1,6 +1,6 @@
 ---
 id: 'footer-01'
-footerLogo: '/images/logo/dark.png'
+footerLogo: '/images/logo/light.png'
 footerLogoAlt: 'Footer Logo'
 excerpt: 'Founded in 2013, M-TECH provides wide range of services that includes engineering, procurement and execution to the oil and gas, petrochemicals and industrial cities.'
 

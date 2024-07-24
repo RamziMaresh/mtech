@@ -66,7 +66,7 @@ function AboutOne() {
                                         </div>
                                     </div>
                                     <h3 className={classes.subtitle}>
-                                        It is the mission of M-TECH to provide quality services to oil & gas, petrochemicals companies And industrial cities in Saudi Arabia and GCC.
+                                        It is the mission of M-TECH to provide quality services to oil And gas, petrochemicals companies And industrial cities in Saudi Arabia and GCC.
                                     </h3>
                                     <p className={classes.desc}>
                                         Through our core values, we aim to compete with the top names in the industry while maintaining excellencein service and standards.

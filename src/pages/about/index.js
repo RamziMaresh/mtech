@@ -27,7 +27,7 @@ function AboutPage({
             </Head>
             <Breadcrumb
                 subTitle="What we do"
-                title="About us"
+                title="About Us"
             />
             <AboutOne />
             <BannerThree bannerThreeItems={bannerThreeItems} />
@@ -45,7 +45,6 @@ export function getStaticProps() {
     const brandItems = getAllItems('brand');
     const teamItemsTwo = getAllItems('team-02');
     const bannerThreeItems = getAllItems('banner-3');
-
     const footerItems = getAllItems('footer');
 
     return {
