@@ -5,7 +5,7 @@ import ProjectSlider from '../projects/project-slider';
 import classes from './latest-project.module.scss';
 import SwiperComps, { Slide } from '../swiper';
 
-function LatestProject({ projects, projectSectionItems, settings }) {
+function LatestProject({ projects, settings }) {
     settings = {
         spaceBetween: 0,
         pagination: false,
@@ -37,20 +37,7 @@ function LatestProject({ projects, projectSectionItems, settings }) {
                     <div className={classes.slider_with__section}>
                         <div className={classes.section_area}>
                             <div className={classes.section_with__navigation}>
-                                <div className={classes.section_title__wrap}>
-                                    {projectSectionItems?.map((item) => (
-                                        <div
-                                            key={item.id}
-                                            className={classes.section_title}
-                                        >
-                                            <h2
-                                                dangerouslySetInnerHTML={{
-                                                    __html: item?.title,
-                                                }}
-                                            />
-                                        </div>
-                                    ))}
-                                </div>
+
                                 <div className={classes.section_navigation}>
                                     <div
                                         className={`${classes.button_next} project-button-next`}

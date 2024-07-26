@@ -64,7 +64,7 @@ function ProjectsHistory({ footerItems }) {
 
             <div className={classes.area}>
                 <Container>
-                    <Row className="">
+                    <Row>
 
                         <div className={classes.content}>
                             <h3 className={classes.subtitletwo}>CIVIL & CONSTRUCTION</h3>

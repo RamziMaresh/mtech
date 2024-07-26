@@ -71,11 +71,11 @@
         }
         h2 {
             color: $white;
-            font-size: 40px;
+            font-size: 25px;
             line-height: 0;
             max-width: 425px;
             @include breakpoint(max-sm-device) {
-                font-size: 30px;
+                font-size: 20px;
             }
             @include breakpoint(max-xxs-device) {
                 margin-bottom: 0;
