@@ -73,7 +73,6 @@ function LatestProject({ projects, settings }) {
 
 LatestProject.propTypes = {
     projects: PropTypes.instanceOf(Object).isRequired,
-    projectSectionItems: PropTypes.instanceOf(Object).isRequired,
     settings: PropTypes.shape({
         slidesPerView: PropTypes.number,
         spaceBetween: PropTypes.number,
