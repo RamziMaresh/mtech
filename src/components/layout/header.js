@@ -87,12 +87,14 @@ function Header() {
                             </Col>
                             <Col sm={{ span: 6 }} className="d-block d-lg-none">
                                 <div className="header-logo">
+                                    {/**
                                     <Link href="/" className={classes.logo}>
                                         <img
                                             src="/images/logo/white.png"
                                             alt="M-tech Logo Header"
                                         />
                                     </Link>
+                                     */}
                                 </div>
                             </Col>
                             <Col xl={6} lg={4} sm={6}>
