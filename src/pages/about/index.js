@@ -4,7 +4,6 @@ import AboutOne from '../../components/about';
 import Breadcrumb from '../../components/breadcrumb';
 import BannerThree from '../../components/banner/index-3';
 import Footer from '../../components/layout/footer';
-import Team from '../../components/team';
 import { getAllItems } from '../../lib/items-util';
 import TeamTwo from '../../components/team/index-2';
 import BrandTwo from '../../components/brand/index-2';
@@ -32,7 +31,6 @@ function AboutPage({
             <AboutOne />
             <BannerThree bannerThreeItems={bannerThreeItems} />
 
-            <Team />
             <BrandTwo brandItems={brandItems} />
 
             <TeamTwo teamItemsTwo={teamItemsTwo} />

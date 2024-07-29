@@ -13,8 +13,8 @@ function BrandTwo({ brandItems, settings }) {
     settings = {
         pagination: false,
         loop: true,
-        Infinity:true,        
-        autoplay:true,
+        Infinity: true,
+        autoplay: true,
         infiniteLoop: true,
 
         navigation: {
@@ -23,9 +23,9 @@ function BrandTwo({ brandItems, settings }) {
         },
         breakpoints: {
             1200: {
-                slidesPerView: 4,
+                slidesPerView: 5,
                 grid: {
-                    rows: 1,
+                    rows: 3,
                     fill: 'row',
                 },
                 spaceBetween: 100,
@@ -66,6 +66,14 @@ function BrandTwo({ brandItems, settings }) {
     return (
         <div className={`${classes.bg} ${classes.space__yaxis}`}>
             <Container>
+                
+            <div className={classes.contentone}
+                    >
+                        <h2 className={classes.title}>
+                            M-Tech Clients
+
+                        </h2>
+                    </div>
                 <SwiperComps settings={settings}>
                     {brandItems?.map((brandItem) => (
                         <Slide key={brandItem.id}>

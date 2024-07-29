@@ -4,7 +4,7 @@
 .space {
     &__top {
         @include breakpoint(min-xl-device) {
-            padding-top: 140px;     
+            padding-top: 100px;     
             padding-bottom: 100px;
 
         }
@@ -33,14 +33,22 @@
     }
 }
 .bg {
-    background-image: url('/images/brand/bg/1-1.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+
 }
 .item {
     @include breakpoint(max-sm-device) {
         display: flex;
         justify-content: center;
+    }
+}
+
+.contentone{
+    text-align: center;
+    margin-bottom: 50px;
+
+    h2{
+        text-transform:uppercase;
+        color: $primary;
+        font-size: 30px;
     }
 }
