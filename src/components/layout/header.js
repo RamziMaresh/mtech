@@ -72,9 +72,10 @@ function Header() {
                                         />
                                         */}
                                         <span>
-                                            +966 13 8 311 722
+                                            (+966) 13 831-1722
                                         </span>
                                     </div>
+                                    
                                     <div className={classes.time_schedule}>
                                         <span>
                                             <Link href="mailto:info@mtech-sa.com" >
@@ -101,7 +102,7 @@ function Header() {
                                 <div className={classes.right}>
                                     <div>
                                         <div>
-                                            AL MAWARED Advance Tech. Co (M-TECH)
+                                            AL MAWARED Advance Tech. Co (M-TECH LTD)
                                         </div>
                                     </div>
 
@@ -149,17 +150,17 @@ function Header() {
                                             >
                                                 <li>
                                                     <Link href="/maintenance-reparing">
-                                                        - Maintenance & Repairing
+                                                        Industrial & Mechanical Services
                                                     </Link>
                                                 </li>
                                                 <li>
                                                     <Link href="/construction-civil">
-                                                        - Construction & Civil
+                                                        Construction & Civil
                                                     </Link>
                                                 </li>
                                                 <li>
                                                     <Link href="/equipment-rental">
-                                                        - Equipment Rental
+                                                        Equipment
                                                     </Link>
                                                 </li>
                                             </ul>
@@ -176,7 +177,7 @@ function Header() {
 
                                                 <li>
                                                     <Link href="/projects-history">
-                                                        - Projects History
+                                                        Projects History
                                                     </Link>
                                                 </li>
                                             </ul>
